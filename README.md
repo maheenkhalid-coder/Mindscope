@@ -4,7 +4,7 @@
 
 ## 🚀 Live Demo
 
-👉 **[Try Mindscope](https://mindscope-1-ecq7.onrender.com)**
+👉 **[Try Mindscope](https://mindscope-1-ezku.onrender.com)**
 
 ## 📌 About
 
