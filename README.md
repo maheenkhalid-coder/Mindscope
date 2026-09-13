@@ -2,6 +2,10 @@
 
 > An end-to-end Machine Learning application that predicts a student's **Mental Health Score** based on social media usage, lifestyle habits, study time, sleep, physical activity, and stress level.
 
+## 🚀 Live Demo
+
+👉 **[Try Mindscope](https://mindscope-1-ecq7.onrender.com)**
+
 ## 📌 About
 
 **Mindscope** is a **Regression** project using student social media and lifestyle data to predict a continuous `Mental_Health_Score`.
