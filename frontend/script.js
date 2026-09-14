@@ -1,7 +1,7 @@
 // ============================================================
 // Config
 // ============================================================
-const API_URL = "http://127.0.0.1:3000/predict";
+const API_URL = "https://mindscope-qa4t.onrender.com/predict";
 
 // Fields that must be sent as numbers (int or float) rather than strings.
 // Matches the StudentData Pydantic model exactly.
