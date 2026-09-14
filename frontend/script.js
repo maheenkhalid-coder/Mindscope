@@ -61,6 +61,7 @@ function setLoading(isLoading) {
   submitBtn.disabled = isLoading;
   submitBtn.classList.toggle("loading", isLoading);
   submitStatus.textContent = isLoading ? "Please don't close this tab while we analyze your answers." : "";
+  wakeMessage.hidden = !isLoading;   // ← new line: show/hide with loading state
 }
 
 /**

@@ -315,6 +315,13 @@ select {
   min-height: 18px;
 }
 
+.wake-message {
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
 /* =========================================================
    Result card
    ========================================================= */
