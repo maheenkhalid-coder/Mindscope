@@ -1,7 +1,7 @@
 // ============================================================
 // Config
 // ============================================================
-const API_URL = "https://mindscope-qa4t.onrender.com/predict";
+const API_URL = "http://127.0.0.1:3000/predict";
 
 // Fields that must be sent as numbers (int or float) rather than strings.
 // Matches the StudentData Pydantic model exactly.
@@ -60,8 +60,7 @@ function showError(title, message) {
 function setLoading(isLoading) {
   submitBtn.disabled = isLoading;
   submitBtn.classList.toggle("loading", isLoading);
-  submitStatus.textContent = isLoading ? "Please don't close this tab while we analyze your answers." : "";
-  wakeMessage.hidden = !isLoading;   // ← new line: show/hide with loading state
+  submitStatus.textContent = isLoading ? "Please keep this tab open. Waking up the AI… This may take a few seconds." : "";
 }
 
 /**
